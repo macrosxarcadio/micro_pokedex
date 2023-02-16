@@ -1,0 +1,39 @@
+.card {
+    background-color: white;
+    padding: 10px 0 10px 0px;
+    border-radius: 10px;
+}
+
+.card-head{
+    padding: 0px 10px 0px 10px;
+}
+.card .ant-card-body {
+    padding: 6px 0px 0px 6px;
+} 
+
+.abilities p {
+    margin: 0px 5px 0px 0px;
+}
+
+.abilities-tag {
+    margin: 4px 4px 0px 0px;
+}
+
+.pokemon-stats p {
+ margin:0;
+ text-align: left;
+}
+
+.select-pokemon {
+    padding: 0px;
+    border-radius: 30px;
+    background-color: unset;
+    border: unset;
+    color: unset;
+    box-shadow: unset;
+    text-align: right;
+}
+
+.set-pokeball-to-bottom {
+    min-height: 100%;
+}

@@ -1,0 +1,15 @@
+@startuml pokeApiService
+entity Pokemon #Red/White
+entity Finder #Blue/White
+entity pokeApi #Green/White
+
+Finder -> pokeApi : Req 1 Pokemon Type list
+pokeApi -> Finder : Res 1 Pokemon Type list
+Finder -> pokeApi : Req 1 Pokemon data
+pokeApi -> Pokemon : Res 1 Pokemon data
+Finder -> pokeApi : Req pokemon List (5 pokemon)
+pokeApi -> Finder : Res pokemon List (5 pokemon)
+Finder -> pokeApi : Req 5 pokemon data
+pokeApi -> Pokemon : Res 5 pokemon data
+
+@enduml

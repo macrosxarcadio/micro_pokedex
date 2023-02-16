@@ -1,0 +1,44 @@
+.gridView {
+   display:grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows:[row1] 0.5fr [row2] 2fr [row3] 3fr [row4] 3fr [row5] 1.5fr [row6];
+   min-height: 100vh;
+}
+
+.search {
+   grid-column-start: 2;
+   grid-column-end: 5;
+   grid-row-start: row2;
+   grid-row-end: row3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.result {
+   grid-column-start: 2;
+   grid-column-end: 5;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   grid-row-start: row3;
+   grid-row-end: row4;
+   column-gap: 1em;
+   row-gap: 1em;
+   display:grid;
+   grid-template-columns: repeat(5, 2fr);
+   grid-template-rows: 1fr;
+}
+
+.accumulator {
+   display:grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: 1fr;
+   column-gap: 1em;
+   row-gap: 1em;
+   grid-column-start: 2;
+   grid-column-end: 5;
+   grid-row-start: row4;
+   grid-row-end: row5;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}

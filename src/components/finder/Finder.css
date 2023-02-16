@@ -1,0 +1,13 @@
+.pokeSearch {
+    max-width: 60%;
+    justify-content: center;
+}
+
+.search {
+    margin: 1em 0 0.5em 0;
+}
+
+.type-tag {
+    background-color: white;
+    margin-top: 1em;
+}
