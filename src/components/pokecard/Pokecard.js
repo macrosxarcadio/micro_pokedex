@@ -16,7 +16,7 @@ const Pokecard = ({ title, id, weight, height, abilities, remove }) => {
                 <Col span={16}>
                     <p style={{ margin: 0 }}>{`${title}`}</p>
                 </Col>
-                <Col span={4} style={{ display: 'flex', alignItems: 'center', justifyContent: 'end' }}>
+                <Col span={4} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     {remove && <CloseCircleOutlined style={{ fontSize: '16px' }} onClick={removePokemon} />}
                 </Col>
             </Row>

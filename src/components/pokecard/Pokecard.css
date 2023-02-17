@@ -1,13 +1,13 @@
 .card {
     background-color: white;
-    padding: 10px 0 10px 0px;
+    padding: 10px 0 0 0;
     border-radius: 10px;
 }
 
 .card-head{
     padding: 0px 10px 0px 10px;
 }
-.card .ant-card-body {
+.card-body {
     padding: 6px 0px 0px 6px;
 } 
 
