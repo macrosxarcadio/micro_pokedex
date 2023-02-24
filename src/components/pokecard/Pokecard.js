@@ -52,7 +52,7 @@ const Pokecard = ({ title, id, weight, height, abilities, remove }) => {
                 <Title />
             </Col>
             <Col span={12}>
-                {id && <img src={require(`./vercel/path0/src/assets/sprites/sprites/pokemon/${id}.png`)} alt={{}}></img>}
+                {id && <img src={require(`./vercel/path0/src/assets/pokemon/${id}.png`)} alt={{}}></img>}
             </Col>
             <Col span={12} className='pokemon-stats'>
                 <p>Height: {height}</p>
